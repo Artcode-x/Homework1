@@ -8,6 +8,11 @@
     padding-right: calc(50% - 1200px / 2);
 }
 
+body,
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header {
     background: url(img/bg.jpg) no-repeat center;
     background-size: cover;
@@ -51,8 +56,8 @@
 }
 
 .product {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 378px);
     gap: 32px;
     padding-top: 128px;
     padding-bottom: 128px;
