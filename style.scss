@@ -24,6 +24,7 @@ button {
         width: 234px;
         height: 48px;
         border: none;
+        color:#ffffff;
     }
 
     &__title {
@@ -45,7 +46,7 @@ button {
         padding-bottom: 44px;
 
         &_big {
-            font-weight: 400;
+            font-weight: 600;
             font-size: 18px;
             line-height: 22px;
             color: #ffffff;
